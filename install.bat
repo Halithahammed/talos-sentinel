@@ -1,0 +1,6 @@
+@echo off
+echo [+][Talos] Initializing local environment setup...
+pip install -r requirements.txt
+echo [+][Talos] Installation complete! Running application...
+python talos_app.py
+pause
